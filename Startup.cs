@@ -22,7 +22,7 @@ namespace TrabajoBas
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
-            var connection = "Data Source=blogging.db";
+            var connection = "Data Source=Ecommerce.db";
             services.AddDbContext<Ecommerce>
                 (options => options.UseSqlite(connection));
         }

@@ -19,9 +19,9 @@ namespace TrabajoBas.Controllers
     
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<Producto>> Get()
+        public ActionResult<IEnumerable<Categoria>> Get()
         {
-            return Context.Producto.ToList();
+            return Context.Categorias.ToList();
         }
 
         // GET api/values/5
